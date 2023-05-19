@@ -60,6 +60,13 @@
 # 3 2 1 -> no
 
 
+# n  = int(input("Введите сторону n: "))
+# m  = int(input("Введите сторону m: "))
+# k  = int(input("Введите количество долек: "))
 
-
-
+# sum = int(n * m)
+# if k >= n and k <= sum and k % n == 0:
+#     print(str(n), str(m), str(k) + " -> Yes")
+# elif k >= m and k <= sum and k % m == 0 :
+#     print(str(n), str(m), str(k) + " -> Yes")
+# else : print(str(n), str(m), str(k) + " -> No")
