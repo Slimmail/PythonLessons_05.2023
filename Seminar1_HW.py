@@ -40,4 +40,16 @@
 
 
 
+ticket_num = int(input("Введите номер билета: "))
+
+if ticket_num >= 100000 :
+    ticket_num = str(ticket_num)
+    if ticket_num[0] + ticket_num[1] + ticket_num[2] == ticket_num[-1] + ticket_num[-2] + ticket_num[-3] :
+        print(ticket_num + ' -> Yes')
+else : 
+    ticket_num = str(ticket_num)
+    print(ticket_num + ' -> No')
+
+
+
 
