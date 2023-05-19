@@ -40,15 +40,25 @@
 
 
 
-ticket_num = int(input("Введите номер билета: "))
+# ticket_num = int(input("Введите номер билета: "))
 
-if ticket_num >= 100000 :
-    ticket_num = str(ticket_num)
-    if ticket_num[0] + ticket_num[1] + ticket_num[2] == ticket_num[-1] + ticket_num[-2] + ticket_num[-3] :
-        print(ticket_num + ' -> Yes')
-else : 
-    ticket_num = str(ticket_num)
-    print(ticket_num + ' -> No')
+# if ticket_num >= 100000 :
+#     ticket_num = str(ticket_num)
+#     if ticket_num[0] + ticket_num[1] + ticket_num[2] == ticket_num[-1] + ticket_num[-2] + ticket_num[-3] :
+#         print(ticket_num + ' -> Yes')
+# else : 
+#     ticket_num = str(ticket_num)
+#     print(ticket_num + ' -> No')
+
+
+
+# Задача 8: Требуется определить, можно ли от шоколадки размером n
+# × m долек отломить k долек, если разрешается сделать один разлом по
+# прямой между дольками (то есть разломить шоколадку на два
+# прямоугольника).
+# 3 2 4 -> yes
+# 3 2 1 -> no
+
 
 
 
