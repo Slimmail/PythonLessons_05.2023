@@ -3,13 +3,11 @@
 # 100 -> 1 (1 + 0 + 0)
 
 number = int(input("Введите число: "))
-# number = 234
 finish_num = 0
 while number > 0 :
     temp = number % 10
     number //= 10
     finish_num = finish_num + temp
-
 print(finish_num)
 
 
