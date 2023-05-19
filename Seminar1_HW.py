@@ -2,13 +2,13 @@
 # 123 -> 6 (1 + 2 + 3)
 # 100 -> 1 (1 + 0 + 0)
 
-number = int(input("Введите число: "))
-finish_num = 0
-while number > 0 :
-    temp = number % 10
-    number //= 10
-    finish_num = finish_num + temp
-print(finish_num)
+# number = int(input("Введите число: "))
+# finish_num = 0
+# while number > 0 :
+#     temp = number % 10
+#     number //= 10
+#     finish_num = finish_num + temp
+# print(finish_num)
 
 
 # Задача 4: Петя, Катя и Сережа делают из бумаги журавликов. Вместе
@@ -19,5 +19,19 @@ print(finish_num)
 # 6 -> 1 4 1
 # 24 -> 4 16 4
 # 60 -> 10 40 10
+
+
+boats = int(input("Введите число журавликов: "))
+if boats % 3 == 0 and (boats / 3) % 2 == 0 :
+    temp = boats // 3
+    katya = boats // 3 * 2
+    petr = temp // 2
+    sergey = temp // 2
+    print(petr, katya, sergey)
+else : print("Нет решения")
+
+
+
+
 
 
