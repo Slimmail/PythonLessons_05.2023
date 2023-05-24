@@ -30,6 +30,28 @@
 # 4 4 -> 2 2
 # 5 6 -> 2 3
 
+# sum = 5
+# product = 6
+
+# # (X,Y≤1000)
+# sum_fresh = range(sum)
+# # 1 2 3 4 5 6
+
+# for i in sum_fresh:
+#     if sum_fresh[i] * sum_fresh[-i] == product :
+#         print(sum_fresh[i], sum_fresh[-i])
+#         exit()
+
+
+# print(sum_fresh[6])
+# for i in sum_fresh :
+#     if 
+
+
+
+ 
+
+
 
 
 
