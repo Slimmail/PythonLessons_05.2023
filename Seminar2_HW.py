@@ -22,6 +22,22 @@
 #     print("Минимально нужно перевернуть:", reshka, "шт. решек")
 
 
+# альтернативное решение
+# n = int(input())
+# count_zero = 0
+# count_one = 0
+# for i in range(n):
+# x = int(input())
+# if x == 0:
+# count_zero += 1
+# else:
+# count_one += 1
+# if count_one > count_zero:
+# print(count_zero)
+# else:
+# print(count_one)
+
+
 # Задача 12: Петя и Катя – брат и сестра. Петя – студент, а Катя –
 # школьница. Петя помогает Кате по математике. Он задумывает два
 # натуральных числа X и Y (X,Y≤1000), а Катя должна их отгадать. Для
@@ -32,29 +48,20 @@
 
 # sum = 5
 # product = 6
-
-# # (X,Y≤1000)
 # sum_fresh = range(sum)
-# # 1 2 3 4 5 6
-
 # for i in sum_fresh:
 #     if sum_fresh[i] * sum_fresh[-i] == product :
 #         print(sum_fresh[i], sum_fresh[-i])
 #         exit()
 
 
-# print(sum_fresh[6])
-# for i in sum_fresh :
-#     if 
-
-
-
- 
-
-
-
-
-
+# альтернативное решение
+# x = int(input())
+# y = int(input())
+# for i in range(x):
+#     for j in range(y):
+#         if x == i + j and y == i * j:
+#             print(i, j)
 
 
 # Задача 14: Требуется вывести все целые степени двойки (т.е. числа
@@ -68,3 +75,10 @@
 #     print(t)
 #     t = 2 ** count
 #     count +=1
+
+# альтернативное решение
+# n = int(input())
+# i = 0
+# while 2 ** i <= n:
+#     print(2 ** i)
+#     i += 1
