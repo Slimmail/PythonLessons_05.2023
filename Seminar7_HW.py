@@ -18,27 +18,27 @@
 
 # ----------------решение-------------------------------------------
 
-text = (input("Введите стихотворение: ")).lower().split()
+# text = (input("Введите стихотворение: ")).lower().split()
 
-vowels = 'аяуюоеёэиы'
-def check_beat(poem):
+# vowels = 'аяуюоеёэиы'
+# def check_beat(poem):
 
-    list_count_vowels = []
-    count_vowels = 0
-    for phrase in poem:
-        for sign in phrase:
-            if sign in vowels:
-                count_vowels +=1
-        list_count_vowels.append(count_vowels)
-        count_vowels = 0
+#     list_count_vowels = []
+#     count_vowels = 0
+#     for phrase in poem:
+#         for sign in phrase:
+#             if sign in vowels:
+#                 count_vowels +=1
+#         list_count_vowels.append(count_vowels)
+#         count_vowels = 0
 
-    if len(set(list_count_vowels)) == 1:
-        print('Парам пам-пам') # совпадает
-    else:
-        print('Пам парам') # не совпадает
+#     if len(set(list_count_vowels)) == 1:
+#         print('Парам пам-пам') # совпадает
+#     else:
+#         print('Пам парам') # не совпадает
 
 
-check_beat(text)
+# check_beat(text)
 
 # --------------конец решени----------------------------------------
 
@@ -63,16 +63,16 @@ check_beat(text)
 
 # ----------------решение-------------------------------------------
 
-def operation_table(operation, num_rows=6, num_columns=6):
-    for row in range(1, num_rows + 1):
-        print(row, end='  ')
-        for column in range(2, num_columns + 1):
-            element = operation(row, column)
-            print(element, end='\t')
-        print()
+# def operation_table(operation, num_rows=6, num_columns=6):
+#     for row in range(1, num_rows + 1):
+#         print(row, end='  ')
+#         for column in range(2, num_columns + 1):
+#             element = operation(row, column)
+#             print(element, end='\t')
+#         print()
 
 
-print(operation_table(lambda x, y: x * y))
+# print(operation_table(lambda x, y: x * y))
 
 # --------------конец решени-----------------------------------------
 
